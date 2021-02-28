@@ -9,7 +9,6 @@ html, body {
   background-repeat: no-repeat;
   display: block;
 
-
 }
 
 h1{
@@ -18,8 +17,6 @@ h1{
 
 }
 
-
-
 h2, h3 {
   font-family: Courier; monospace;
   font-style: bold;
@@ -27,7 +24,6 @@ h2, h3 {
   padding: 15px;
   border: 5px;
   padding-bottom: 5px;
-
 
 }
 
@@ -52,8 +48,6 @@ main, .major-section div#content {
 .minor-section {
   background-color: #fff;
   padding: 40px;
-
-
 
 
 }
