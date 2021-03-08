@@ -1,0 +1,43 @@
+html, body{
+  font-family: 'Anonymous Pro'; monospace;
+  font-size: 14px;
+  color: black;
+  background-color: lavender;
+  display: block;
+  line-height: 2em;
+}
+#header{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+#header, h2{
+  font-family: 'Rock Salt', cursive;
+  text-decoration: underline;
+}
+
+#content{
+  border: dashed black 1px;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+  width: 50%;
+}
+ main, .major-section{
+   border: solid 5px black;
+   background-color: #4e0e1e87;
+   margin: 50px;
+ }
+
+img{
+  float: right;
+  width: auto;
+  height: auto;
+  display: block;
+  padding-top: 10px;
+  margin: none;
+  margin-right: 50px;
+}
