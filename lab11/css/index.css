@@ -1,0 +1,49 @@
+html, body{
+  font-family: Courier, monospace;
+  font-size: 15px;
+}
+
+#links{
+  color: white;
+  background-color: lavender;
+  position: fixed;
+  padding-left: 20px;
+  position: sticky;
+  text-align: center;
+  font-size: 18px;
+}
+
+#sidebar{
+  display: inline-block;
+  width: 33%;
+  min-width: 300px;
+  position: fixed;
+  right: auto;
+  border: dashed 2px black;
+  margin: 10px;
+  padding-left: 20px;
+}
+
+#content{
+  display: inline-block;
+  width: 50%;
+  min-width: 300px;
+  border: solid 2px black;
+  padding-left: 20px;
+  margin: 10px;
+}
+
+h1, h2, h3{
+  text-align: center;
+  text-decoration: underline;
+}
+
+#images{
+  border: solid 2px black;
+  width: auto;
+  margin: auto;
+}
+
+img{
+  max-width: 275px;
+}
