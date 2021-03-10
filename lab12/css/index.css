@@ -1,0 +1,86 @@
+html, body{
+  font-family: Courier, monospace;
+  font-size: 13px;
+  color: hotpink;
+  background-image: url("../img/background.jpg");
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: repeat-x;
+  line-height: 1.5;
+}
+
+h1, h2, h3{
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+#content{
+  border: solid 2px hotpink;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #69f1ffe8;
+}
+
+
+img {
+  width: 150px;
+
+}
+
+#floated{
+  border: solid 2px hotpink;
+  width: 30%;
+  font-style: bold;
+  float: right;
+  background-color: #69f1ffe8;
+}
+
+#center-horz{
+  border: solid 2px hotpink;
+  width: 30%;
+  font-style: bold;
+  text-align: center;
+  background-color: #69f1ffe8;
+}
+
+#center-img{
+  border: solid 2px hotpink;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #69f1ffe8;
+}
+
+#center-img img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #69f1ffe8;
+}
+
+#center-both{
+  border: solid 2px hotpink;
+  width: 30%;
+  position: relative;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #69f1ffe8;
+
+}
+
+#center-both img{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #69f1ffe8;
+}
+
+#links{
+  color: hotpink;
+}
