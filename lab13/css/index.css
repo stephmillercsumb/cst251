@@ -1,0 +1,22 @@
+html, body{
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  color: darkred;
+}
+
+h1, h2{
+  color: black;
+  font-family: "Redressed";
+  text-decoration: underline;
+}
+
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
+
+
+}

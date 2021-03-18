@@ -1,0 +1,104 @@
+html, body{
+  font-family: "Arial";
+  font-size: 16px;
+}
+
+#home{
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+  float: left;
+  padding-right: 25px;
+}
+
+#features{
+  font-size: 20px;
+  color: #b5b5b5;
+  text-decoration: underline;
+  float: left;
+  padding-right: 25px;
+}
+#pricing{
+  font-size: 20px;
+  color: #b5b5b5;
+  text-decoration: underline;
+}
+
+#login{
+  padding-top: none;
+  margin: none;
+  font-size: 20px;
+  color: #b5b5b5;
+  float: right;
+  text-decoration: underline;
+}
+
+#signup{
+  margin-top: none;
+  font-size: 20px;
+  color: #b5b5b5;
+  float: right;
+  text-align: right;
+  padding-right: 25px;
+  text-decoration: underline;
+}
+
+#letters{
+  width: 160vh;
+  margin-top: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#h{
+  font-size: 300px;
+  font-weight: bold;
+  color: #e1c632;
+  width: 200px;
+  float: left;
+}
+
+#e {
+  font-size: 300px;
+  font-weight: bold;
+  color: #fb997a;
+  width: 160px;
+  float: left;
+}
+
+#l{
+  font-size: 300px;
+  font-weight: bold;
+  color: #2bcaac;
+  width: 160px;
+  float: left;
+}
+
+#o{
+  font-size: 300px;
+  font-weight: bold;
+  color: #ea6060;
+  width: 100px;
+  float: left;
+}
+
+#period{
+  font-size: 300px;
+  font-weight: bold;
+  color: #fb997a;
+  float: right;
+}
+
+#managing{
+  font-size: 30px;
+  color: #b5b5b5;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 400%);
+
+}
