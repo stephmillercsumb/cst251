@@ -1,0 +1,19 @@
+ body{
+  font-family: monospace;
+  font-size: 16px;
+  width: 80vw;
+  height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}

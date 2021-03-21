@@ -1,0 +1,52 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  letter-spacing: 10px;
+  color: white;
+  background-color: black;
+  }
+
+#container{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: -100;
+}
+
+h1{
+  font-size: 275px;
+  letter-spacing: 140px;
+  padding-bottom: none;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+
+p{
+  margin-left: 25px;
+  font-size: 50px;
+  margin-top: 0;
+  letter-spacing: 20px;
+}
+
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+#portraitbox{
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+}
+
+#captionbox{
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  left: 0;
+}
