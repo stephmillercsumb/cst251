@@ -1,0 +1,62 @@
+html, body{
+  background-image: url("../img/mosssmall.jpg");
+  background-size: cover;
+  color: black;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2{
+  text-decoration: underline;
+  text-align: center;
+}
+
+#content{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-150%, -70%);
+  border: solid 5px black;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  transition: color 2s;
+  transition: background-color 2s;
+  transition: border 2s;
+  display: inline-block;
+}
+
+#content:hover{
+  color: white;
+  background-color: black;
+  border: dashed 8px white;
+
+}
+
+p{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#column{
+  display: inline-block;
+  max-width: 400px;
+  border: solid 5px black;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  transition: color 2s;
+  transition: background-color 2s;
+  transition: border 2s;
+  column-count: 3;
+  max-height: 800px;
+}
+
+#column:hover{
+  color: white;
+  background-color: black;
+  border: dashed 8px white;
+
+}
