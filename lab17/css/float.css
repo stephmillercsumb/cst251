@@ -1,0 +1,65 @@
+body{
+  font-family: monospace;
+  font-size: 15px;
+  color: #e14900;
+  background-color: black;
+  border: solid 1px white;
+  display: block;
+}
+
+main{
+  border: solid 1px white;
+}
+
+img{
+  max-width: 300px;
+}
+
+section{
+  border: solid 1px white;
+}
+
+header{
+  border: solid 3px white;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+aside{
+  border: solid 1px white;
+  max-width: 20%;
+  float: left;
+}
+
+nav{
+  border: solid 1px white;
+  text-align: center;
+  margin-left: 47%;
+  margin-right: 47%;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+#section1{
+  max-width: 20%;
+  float: left;
+}
+#section2{
+  max-width: 20%;
+  float: left;
+}
+#section3{
+  max-width: 20%;
+  float: left;
+}
+
+h1, h2{
+  color: white;
+  text-decoration: underline;
+}
+
+a{
+  color: #e14900;
+}

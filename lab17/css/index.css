@@ -1,0 +1,47 @@
+body{
+  font-family: monospace;
+  font-size: 16px;
+  color: #e14900;
+  background-color: black;
+  border: solid 1px white;
+  max-width: 50%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+main{
+  border: solid 1px white;
+}
+
+img{
+  max-width: 600px;
+}
+
+section{
+  border: solid 1px white;
+}
+
+header{
+  border: solid 1px white;
+}
+
+aside{
+  border: solid 1px white;
+}
+
+nav{
+  border: solid 1px white;
+}
+
+h1, h2{
+  color: white;
+  text-decoration: underline;
+}
+
+a{
+  color: #e14900;
+}
+
+aside{
+border: white;
+}
