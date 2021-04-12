@@ -1,0 +1,36 @@
+body{
+  font-family: helvetica;
+  font-size: 14px;
+  line-height: 1.5;
+  border: dotted 2px black;
+  max-width: 50%;
+
+}
+
+nav{
+  border: dotted 4px black;
+}
+aside{
+  border: dotted 4px black;
+}
+main{
+  border: dotted 4px black;
+}
+footer{
+  border: dotted 4px black;
+}
+
+#photos{
+  border: solid 3px blue;
+  display: flex;
+  justify-content: space-around;
+}
+
+#info{
+  border: solid 3px blue;
+}
+img{
+  max-width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
