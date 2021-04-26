@@ -1,0 +1,19 @@
+body{
+  font-size: 16px;
+  font-family: sans-serif;
+
+}
+
+h1{
+  color: #5abddd;
+  text-decoration: overline;
+}
+
+h2{
+  color: red;
+  text-decoration: overline;
+}
+
+img{
+  max-width: 800px;
+}
